@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center|top">
+
+    <Button
+        android:id="@+id/shareText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:backgroundTint="@color/LightBlue"
+        android:text="Share As a Text"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:drawableLeft="@drawable/share"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/shareImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:backgroundTint="@color/DarkBlue"
+        android:text="Share As a Image"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:drawableLeft="@drawable/share"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:backgroundTint="@color/LightBlue"
+        android:text="Copy the text"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:drawableLeft="@drawable/copy"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="@string/copy_notice"
+        android:textAlignment="center"
+        android:textColor="@color/Danger"/>
+
+</LinearLayout>

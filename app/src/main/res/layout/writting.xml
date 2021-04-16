@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/WritingLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/showUserEnteredText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:padding="5dp"
+            android:text="kk"
+            android:gravity="left"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/onShareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@color/LightBlue"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            />
+        <ImageButton
+            android:id="@+id/onDeleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@color/Danger"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/showTextToGenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>

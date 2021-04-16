@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_writing">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ListView
+            android:id="@+id/displayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/LightGrey"
+            android:dividerHeight="5dp"
+            android:listSelector="@color/LightBlue"/>
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/addBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_repeatCount="3"
+        app:lottie_repeatMode="reverse"
+        app:lottie_rawRes="@raw/add_btn"
+        app:lottie_scale="0.3"
+        app:lottie_speed="0.2" />
+
+</RelativeLayout>

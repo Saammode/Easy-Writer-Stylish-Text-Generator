@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Easy Writer</string>
+    <string name="description">Write wonderful designed content to share in social media</string>
+    <string name="copy_notice">If you have pasted the content on html format supported platform, Text will have format, else it will be a plain text.</string>
+    <string-array name="size">
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+    </string-array>
+    <string-array name="font">
+        <item>Arial</item>
+        <item>Aka_Dora</item>
+        <item>Beyond Wonder Land</item>
+        <item>Bold Stylish Calligraphy</item>
+        <item>Extra Ornamentalno</item>
+        <item>Hugs Kisses Xoxo</item>
+        <item>Little Lord Font Leroy</item>
+        <item>Nemo Nightmares</item>
+        <item>Princess Sofia</item>
+        <item>Snipper</item>
+        <item>Underground</item>
+    </string-array>
+    <string-array name="spacing">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+
+</resources>
